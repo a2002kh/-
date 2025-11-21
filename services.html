@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>البرامج والخدمات - قسم الشبكات | جامعة بابل</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <div class="logo-icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+            <circle cx="12" cy="12" r="3"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-main">قسم الشبكات</span>
+          <span class="logo-sub">Networks Department</span>
+        </div>
+      </div>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="about.html">عن القسم</a></li>
+        <li><a href="services.html" class="active">البرامج والخدمات</a></li>
+        <li><a href="contact.html">اتصل بنا</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="contact.html" class="btn-nav">التسجيل</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="page-header-bg">
+      <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1920&q=80" alt="Network Technology">
+      <div class="page-header-overlay"></div>
+    </div>
+    <div class="container">
+      <div class="page-header-content">
+        <span class="page-badge">البرامج والخدمات</span>
+        <h1>برامجنا الأكاديمية</h1>
+        <p>مجموعة شاملة من البرامج في مجال الشبكات وتكنولوجيا المعلومات</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Programs Section -->
+  <section class="programs-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">البرامج الأكاديمية</span>
+        <h2 class="section-title">برامج دراسية متنوعة</h2>
+        <p class="section-description">برامج معتمدة في مختلف المستويات الأكاديمية</p>
+      </div>
+      <div class="programs-tabs">
+        <button class="tab-btn active" data-tab="undergraduate">الدراسات الأولية</button>
+        <button class="tab-btn" data-tab="graduate">الدراسات العليا</button>
+        <button class="tab-btn" data-tab="diploma">الدبلوم والدورات</button>
+      </div>
+      <div class="programs-content">
+        <div class="tab-content active" id="undergraduate">
+          <div class="programs-grid">
+            <div class="program-card">
+              <div class="program-image">
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80" alt="Bachelor Program">
+              </div>
+              <div class="program-content">
+                <div class="program-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                  </svg>
+                </div>
+                <h3>بكالوريوس في الشبكات</h3>
+                <p>برنامج شامل مدته 4 سنوات يغطي جميع جوانب تكنولوجيا الشبكات والمعلومات</p>
+                <ul class="program-features">
+                  <li>شبكات الحاسوب الأساسية</li>
+                  <li>أمن الشبكات</li>
+                  <li>إدارة الشبكات</li>
+                  <li>الشبكات اللاسلكية</li>
+                  <li>مشروع التخرج</li>
+                </ul>
+                <a href="contact.html" class="btn btn-primary">التسجيل</a>
+              </div>
+            </div>
+            <div class="program-card">
+              <div class="program-image">
+                <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80" alt="Network Security">
+              </div>
+              <div class="program-content">
+                <div class="program-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                  </svg>
+                </div>
+                <h3>تخصص الأمن السيبراني</h3>
+                <p>مسار متخصص في أمن الشبكات والمعلومات ضمن برنامج البكالوريوس</p>
+                <ul class="program-features">
+                  <li>أمن المعلومات</li>
+                  <li>الدفاع السيبراني</li>
+                  <li>اختبار الاختراق</li>
+                  <li>إدارة الحوادث</li>
+                  <li>التشفير</li>
+                </ul>
+                <a href="contact.html" class="btn btn-primary">التسجيل</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-content" id="graduate">
+          <div class="programs-grid">
+            <div class="program-card">
+              <div class="program-image">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="Master Program">
+              </div>
+              <div class="program-content">
+                <div class="program-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                  </svg>
+                </div>
+                <h3>ماجستير في الشبكات</h3>
+                <p>برنامج دراسات عليا متقدم في تكنولوجيا الشبكات والاتصالات</p>
+                <ul class="program-features">
+                  <li>الشبكات المتقدمة</li>
+                  <li>الحوسبة السحابية</li>
+                  <li>إنترنت الأشياء</li>
+                  <li>رسالة الماجستير</li>
+                </ul>
+                <a href="contact.html" class="btn btn-primary">التسجيل</a>
+              </div>
+            </div>
+            <div class="program-card">
+              <div class="program-image">
+                <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80" alt="PhD Program">
+              </div>
+              <div class="program-content">
+                <div class="program-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                  </svg>
+                </div>
+                <h3>دكتوراه في الشبكات</h3>
+                <p>برنامج دكتوراه متقدم للبحث العلمي في مجال الشبكات</p>
+                <ul class="program-features">
+                  <li>بحوث متقدمة</li>
+                  <li>نشر علمي</li>
+                  <li>أطروحة الدكتوراه</li>
+                  <li>تعاون دولي</li>
+                </ul>
+                <a href="contact.html" class="btn btn-primary">التسجيل</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-content" id="diploma">
+          <div class="programs-grid">
+            <div class="program-card">
+              <div class="program-image">
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80" alt="Diploma">
+              </div>
+              <div class="program-content">
+                <div class="program-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                  </svg>
+                </div>
+                <h3>دبلوم في الشبكات</h3>
+                <p>برنامج دبلوم تقني متخصص في إدارة وتشغيل الشبكات</p>
+                <ul class="program-features">
+                  <li>شهادة معتمدة</li>
+                  <li>تدريب عملي</li>
+                  <li>مدة سنة واحدة</li>
+                </ul>
+                <a href="contact.html" class="btn btn-primary">التسجيل</a>
+              </div>
+            </div>
+            <div class="program-card">
+              <div class="program-image">
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" alt="Training Courses">
+              </div>
+              <div class="program-content">
+                <div class="program-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                  </svg>
+                </div>
+                <h3>دورات تدريبية</h3>
+                <p>دورات قصيرة في مختلف مجالات الشبكات والأمن</p>
+                <ul class="program-features">
+                  <li>CCNA</li>
+                  <li>CCNP</li>
+                  <li>أمن الشبكات</li>
+                  <li>شهادات معتمدة</li>
+                </ul>
+                <a href="contact.html" class="btn btn-primary">التسجيل</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services-detailed">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">خدماتنا</span>
+        <h2 class="section-title">خدمات القسم</h2>
+        <p class="section-description">خدمات متكاملة للطلاب والباحثين</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-image">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80" alt="Lab Services">
+          </div>
+          <div class="service-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+              <line x1="8" y1="21" x2="16" y2="21"/>
+              <line x1="12" y1="17" x2="12" y2="21"/>
+            </svg>
+          </div>
+          <h3>خدمات المختبرات</h3>
+          <p>استخدام المختبرات المتقدمة للبحث والتطوير</p>
+        </div>
+        <div class="service-card">
+          <div class="service-image">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" alt="Consulting">
+          </div>
+          <div class="service-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+          </div>
+          <h3>استشارات تقنية</h3>
+          <p>استشارات متخصصة في الشبكات والأمن</p>
+        </div>
+        <div class="service-card">
+          <div class="service-image">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="Research">
+          </div>
+          <div class="service-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M3 3h18v18H3zM9 9h6v6H9z"/>
+              <path d="M21 9v6M9 21H3M9 3H3"/>
+            </svg>
+          </div>
+          <h3>البحث العلمي</h3>
+          <p>دعم المشاريع البحثية والدراسات</p>
+        </div>
+        <div class="service-card">
+          <div class="service-image">
+            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80" alt="Training">
+          </div>
+          <div class="service-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+            </svg>
+          </div>
+          <h3>التدريب والتطوير</h3>
+          <p>برامج تدريبية للطلاب والخريجين</p>
+        </div>
+        <div class="service-card">
+          <div class="service-image">
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80" alt="Career Support">
+          </div>
+          <div class="service-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+          </div>
+          <h3>دعم التوظيف</h3>
+          <p>مساعدة في الحصول على فرص عمل</p>
+        </div>
+        <div class="service-card">
+          <div class="service-image">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="Certifications">
+          </div>
+          <div class="service-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+              <polyline points="22 4 12 14.01 9 11.01"/>
+            </svg>
+          </div>
+          <h3>الشهادات المهنية</h3>
+          <p>إعداد للحصول على شهادات دولية</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2>ابدأ رحلتك الأكاديمية</h2>
+        <p>اختر البرنامج المناسب لك وابدأ التقديم الآن</p>
+        <div class="cta-buttons">
+          <a href="contact.html" class="btn btn-primary btn-large">
+            <span>التسجيل الآن</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+          <a href="about.html" class="btn btn-secondary btn-large">اعرف المزيد</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-col footer-main">
+          <div class="footer-logo">
+            <div class="logo-icon">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                <circle cx="12" cy="12" r="3"/>
+              </svg>
+            </div>
+            <div class="logo-text">
+              <span class="logo-main">قسم الشبكات</span>
+              <span class="logo-sub">Networks Department</span>
+            </div>
+          </div>
+          <p>قسم متخصص في تكنولوجيا الشبكات وتقنيات المعلومات، ملتزم بتقديم تعليم متميز وإعداد كوادر متخصصة في مجال الشبكات والأمن السيبراني</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+              </svg>
+            </a>
+            <a href="#" aria-label="Twitter">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+              </svg>
+            </a>
+            <a href="#" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/>
+                <circle cx="4" cy="4" r="2"/>
+              </svg>
+            </a>
+            <a href="#" aria-label="YouTube">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/>
+                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>روابط سريعة</h4>
+          <ul>
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="about.html">عن القسم</a></li>
+            <li><a href="services.html">البرامج</a></li>
+            <li><a href="contact.html">اتصل بنا</a></li>
+            <li><a href="#">البحث العلمي</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>البرامج</h4>
+          <ul>
+            <li><a href="services.html">البكالوريوس</a></li>
+            <li><a href="services.html">الماجستير</a></li>
+            <li><a href="services.html">الدكتوراه</a></li>
+            <li><a href="services.html">الدبلوم</a></li>
+            <li><a href="services.html">الدورات</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>معلومات</h4>
+          <ul>
+            <li><a href="about.html">الهيئة التدريسية</a></li>
+            <li><a href="about.html">المختبرات</a></li>
+            <li><a href="contact.html">الموقع</a></li>
+            <li><a href="#">الأسئلة الشائعة</a></li>
+            <li><a href="#">الخصوصية</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 قسم الشبكات - كلية تكنولوجيا المعلومات | جامعة بابل. جميع الحقوق محفوظة.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
